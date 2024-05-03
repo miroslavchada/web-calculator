@@ -1,0 +1,38 @@
+{
+    "name": "sterzik/expression",
+    "description": "Custom user-defined syntax expression parsing library",
+    "license": "MIT",
+    "homepage": "https://github.com/marek-sterzik/expression",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Marek Sterzik",
+            "email": "marek.sterzik@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "php": ">=8.1",
+        "phpunit/phpunit": ">=10.4",
+        "squizlabs/php_codesniffer": ">=3.7",
+        "phpstan/phpstan": ">=1.10",
+        "phpmd/phpmd": ">=2.6"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Sterzik\\Expression\\": "src"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

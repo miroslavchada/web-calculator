@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0caaa69f91652e9f7eff7188a23e23fb",
+    "packages": [
+        {
+            "name": "sterzik/expression",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marek-sterzik/expression.git",
+                "reference": "5a9d37074f7e606d4a8f2b83bafca0cbe79cd10d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marek-sterzik/expression/zipball/5a9d37074f7e606d4a8f2b83bafca0cbe79cd10d",
+                "reference": "5a9d37074f7e606d4a8f2b83bafca0cbe79cd10d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "php": ">=8.1",
+                "phpmd/phpmd": ">=2.6",
+                "phpstan/phpstan": ">=1.10",
+                "phpunit/phpunit": ">=10.4",
+                "squizlabs/php_codesniffer": ">=3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sterzik\\Expression\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marek Sterzik",
+                    "email": "marek.sterzik@gmail.com"
+                }
+            ],
+            "description": "Custom user-defined syntax expression parsing library",
+            "homepage": "https://github.com/marek-sterzik/expression",
+            "support": {
+                "issues": "https://github.com/marek-sterzik/expression/issues",
+                "source": "https://github.com/marek-sterzik/expression/tree/v0.0.1"
+            },
+            "time": "2024-03-01T13:16:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

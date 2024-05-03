@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ "$1" == "prod" ]; then
+    flags="--no-interaction --no-dev"
+else
+    flags=""
+fi
+
+if [ -f "composer.json" ]; then
+	composer install $flags
+fi
+
