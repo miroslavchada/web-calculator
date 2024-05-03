@@ -1,3 +1,6 @@
+The code is in /public directory.
+Instructions for running this environment in czech language below:
+
 # SPŠ Ostrov PHP runtime environment
 
 Toto je vývojové prostředí pro vývoj PHP aplikací v předmětu PVA.
